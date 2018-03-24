@@ -8,11 +8,17 @@ provider "heroku" {
 resource "heroku_app" "staging" {
   name = "aramexx-sunburst-stage"
   region = "us"
+  buildpacks = [
+    "heroku/python"
+  ]
 }
 
 resource "heroku_app" "production" {
   name = "aramexx-sunburst-prod"
   region = "us"
+  buildpacks = [
+    "heroku/python"
+  ]
 }
 
 resource "heroku_addon" "database" {
