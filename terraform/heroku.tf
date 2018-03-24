@@ -21,12 +21,12 @@ resource "heroku_pipeline" "aramexx-sunburst-pipeline" {
 
 resource "heroku_pipeline_coupling" "staging" {
   app      = "${heroku_app.staging.name}"
-  pipeline = "${heroku_pipeline.aramexx-sunburst-staging.id}"
+  pipeline = "${heroku_pipeline.aramexx-sunburst-pipeline.id}"
   stage    = "staging"
 }
 
 resource "heroku_pipeline_coupling" "production" {
   app      = "${heroku_app.production.name}"
-  pipeline = "${heroku_pipeline.aramexx-sunburst-production.id}"
+  pipeline = "${heroku_pipeline.aramexx-sunburst-pipeline.id}"
   stage    = "production"
 }
