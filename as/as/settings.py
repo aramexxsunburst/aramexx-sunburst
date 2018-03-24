@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "aramexx-sunburst-stage.herokuapp.com",
+    "aramexx-sunburst-prod.herokuapp.com",
 ]
 
 
