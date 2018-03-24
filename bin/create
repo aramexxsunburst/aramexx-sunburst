@@ -1,3 +1,4 @@
+#!/bin/bash
 as/manage.py makemigrations
 as/manage.py migrate
-as/manage.py runserver
+as/manage.py runserver 0.0.0.0:$PORT
