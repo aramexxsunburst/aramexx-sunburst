@@ -1,0 +1,3 @@
+as/manage.py makemigrations
+as/manage.py migrate
+as/manage.py runserver 0.0.0.0:8000
