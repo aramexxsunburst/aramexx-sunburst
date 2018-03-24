@@ -25,7 +25,9 @@ SECRET_KEY = '06tm9irlop!vksrf#picrw+k!(f+fp1v!0r5mz*%3z++$9&xs-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "aramexx-sunburst-stage.herokuapp.com",
+]
 
 
 # Application definition
