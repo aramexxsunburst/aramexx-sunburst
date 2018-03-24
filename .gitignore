@@ -1,2 +1,5 @@
 .as/
+*.tfstate
+.*
 __pycache__/
+*.backup
