@@ -21,16 +21,6 @@ resource "heroku_app" "production" {
   ]
 }
 
-resource "heroku_addon" "database" {
-  app  = "${heroku_app.staging.name}"
-  plan = "heroku-postgresql:hobby-basic"
-}
-
-resource "heroku_addon" "database" {
-  app  = "${heroku_app.production.name}"
-  plan = "heroku-postgresql:hobby-basic"
-}
-
 resource "heroku_pipeline" "aramexx-sunburst-pipe" {
   name = "aramexx-sunburst-pipe"
 }
