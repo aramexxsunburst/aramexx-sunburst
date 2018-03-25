@@ -26,6 +26,7 @@ SECRET_KEY = '06tm9irlop!vksrf#picrw+k!(f+fp1v!0r5mz*%3z++$9&xs-'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "localhost",
     "127.0.0.1",
     "aramexx-sunburst-stage.herokuapp.com",
     "aramexx-sunburst-prod.herokuapp.com",
