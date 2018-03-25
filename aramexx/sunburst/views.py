@@ -1,6 +1,6 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from .forms import UploadForm
+from sunburst.forms import UploadForm
 
 # Create your views here.
 
