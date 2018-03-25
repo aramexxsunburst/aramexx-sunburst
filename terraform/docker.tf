@@ -5,6 +5,11 @@ provider "docker" {
 resource "docker_container" "postgres" {
   image = "postgres:alpine"
   name  = "postgres"
+  provisioner "remote-exec" {
+    inline = [
+      "createdb as",
+    ]
+  }
   ports {
     internal = 5432
     external = 5432
