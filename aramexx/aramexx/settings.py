@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'as.urls'
+ROOT_URLCONF = 'aramexx.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'as.wsgi.application'
+WSGI_APPLICATION = 'aramexx.wsgi.application'
 
 
 # Database
@@ -83,7 +84,7 @@ WSGI_APPLICATION = 'as.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'as',
+        'NAME': 'aramexx',
         'USER': 'postgres',
         'PASSWORD': '',
         'HOST': 'localhost',
