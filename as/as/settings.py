@@ -26,6 +26,7 @@ SECRET_KEY = '06tm9irlop!vksrf#picrw+k!(f+fp1v!0r5mz*%3z++$9&xs-'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "127.0.0.1",
     "aramexx-sunburst-stage.herokuapp.com",
     "aramexx-sunburst-prod.herokuapp.com",
 ]
@@ -57,7 +58,9 @@ ROOT_URLCONF = 'as.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'sunburst/templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

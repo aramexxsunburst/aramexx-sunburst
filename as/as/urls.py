@@ -19,6 +19,6 @@ from django.urls import path
 import sunburst.views
 
 urlpatterns = [
-    path('', sunburst.views.index),
+    path('', sunburst.views.index, name='index'),
     path('admin/', admin.site.urls),
 ]
