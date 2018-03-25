@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 Django = "*"
+pytest = "*"
+pytest-django = "*"
+"psycopg2-binary" = "*"
+django = "*"
+dj-database-url = "*"
 
 [dev-packages]
 

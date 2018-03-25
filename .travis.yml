@@ -3,6 +3,7 @@ language: python
 python:
   - '3.6.4'
 script:
-  - pip install django
-  - as/manage.py test
+  - pip install pipenv
+  - pipenv sync
+  - pytest aramexx/
 ...

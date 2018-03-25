@@ -1,4 +1,4 @@
 #!/bin/bash
-as/manage.py makemigrations
-as/manage.py migrate
-as/manage.py runserver 0.0.0.0:$PORT
+aramexx/manage.py makemigrations
+aramexx/manage.py migrate
+aramexx/manage.py runserver 0.0.0.0:$PORT

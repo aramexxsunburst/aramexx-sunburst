@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPR:eCPR xmlns:CPR="http://www.dir.ca.gov/dlse/CPR-Prod-Test/CPR.xsd">
+  <CPR:contractorInfo>
+    <CPR:contractorName>Aramexx Construction</CPR:contractorName>
+    <CPR:contractorLicense>
+      <CPR:licenseType>CSLB</CPR:licenseType>
+      <CPR:licenseNum>960305</CPR:licenseNum>
+    </CPR:contractorLicense>
+    <CPR:contractorPWCR>1000010179</CPR:contractorPWCR>
+    <CPR:contractorFEIN>263031337</CPR:contractorFEIN>
+    <CPR:contractorAddress>
+      <CPR:street>101 N. Indian Hill Blvd. Suite C1-201</CPR:street>
+      <CPR:city>Claremont</CPR:city>
+      <CPR:state>CA</CPR:state>
+      <CPR:zip>91711</CPR:zip>
+    </CPR:contractorAddress>
+    <CPR:insuranceNum>7600014073151</CPR:insuranceNum>
+    <CPR:contractorEmail>sal@aramexxgroupinc.com</CPR:contractorEmail>
+  </CPR:contractorInfo>
+  <CPR:projectInfo>
+    <CPR:awardingBody>City of Santa Ana</CPR:awardingBody>
+    <CPR:contractAgencyID> </CPR:contractAgencyID>
+    <CPR:contractAgency>100012199</CPR:contractAgency>
+    <CPR:projectName> </CPR:projectName>
+    <CPR:projectID>217579</CPR:projectID>
+    <CPR:awardingBodyID>100012199</CPR:awardingBodyID>
+    <CPR:projectNum>16-7521 / 16-7522</CPR:projectNum>
+    <CPR:contractID>16-7521</CPR:contractID>
+    <CPR:projectLocation>
+      <CPR:description> </CPR:description>
+      <CPR:street> </CPR:street>
+      <CPR:city> </CPR:city>
+      <CPR:county> </CPR:county>
+      <CPR:state> </CPR:state>
+      <CPR:zip> </CPR:zip>
+    </CPR:projectLocation>
+  </CPR:projectInfo>
+  <CPR:payrollInfo>
+    <CPR:statementOfNP>false</CPR:statementOfNP>
+    <CPR:payrollNum> </CPR:payrollNum>
+    <CPR:amendmentNum> </CPR:amendmentNum>
+    <CPR:forWeekEnding>2018-01-28</CPR:forWeekEnding>
+    <CPR:employees>
+      <CPR:employee>
+        <CPR:name id="609587870::ERIC A Gonzalez">Eric A Gonzalez</CPR:name>
+        <CPR:address>
+          <CPR:street>1031 W. B St. Apt 4</CPR:street>
+          <CPR:city>Ontario</CPR:city>
+          <CPR:state>CA</CPR:state>
+          <CPR:zip>91762</CPR:zip>
+        </CPR:address>
+        <CPR:ssn>609587870</CPR:ssn>
+        <CPR:numWithholdingExemp>3</CPR:numWithholdingExemp>
+        <CPR:workClass>Landscape Irrigation Laborer</CPR:workClass>
+        <CPR:payroll>
+          <CPR:hrsWorkedEachDay>
+            <CPR:day id="1">
+              <CPR:date>2018-01-22</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="2">
+              <CPR:date>2018-01-23</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="3">
+              <CPR:date>2018-01-24</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="4">
+              <CPR:date>2018-01-25</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="5">
+              <CPR:date>2018-01-26</CPR:date>
+              <CPR:straightTime>4.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="6">
+              <CPR:date>2018-01-27</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="7">
+              <CPR:date>2018-01-28</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+          </CPR:hrsWorkedEachDay>
+          <CPR:totHrs>
+            <CPR:totHrsStraightTime>4.0</CPR:totHrsStraightTime>
+            <CPR:totHrsOvertime>0.0</CPR:totHrsOvertime>
+            <CPR:totHrsDoubletime>0.0</CPR:totHrsDoubletime>
+          </CPR:totHrs>
+          <CPR:hrlyPayRate>
+            <CPR:hrlyPayRateStraightTime>31.38</CPR:hrlyPayRateStraightTime>
+            <CPR:hrlyPayRateOvertime>0.0</CPR:hrlyPayRateOvertime>
+            <CPR:hrlyPayRateDoubletime>0.0</CPR:hrlyPayRateDoubletime>
+          </CPR:hrlyPayRate>
+          <CPR:grossAmountEarned>
+            <CPR:thisProject>125.52</CPR:thisProject>
+            <CPR:allWork>1214.44</CPR:allWork>
+          </CPR:grossAmountEarned>
+          <CPR:deductionsContribPay>
+            <CPR:fedTax>73.0</CPR:fedTax>
+            <CPR:FICA>92.91</CPR:FICA>
+            <CPR:stateTax>16.65</CPR:stateTax>
+            <CPR:SDI>12.15</CPR:SDI>
+            <CPR:vacationHoliday>0.0</CPR:vacationHoliday>
+            <CPR:healthWelfare>0.0</CPR:healthWelfare>
+            <CPR:pension>735.78</CPR:pension>
+            <CPR:training>25.74</CPR:training>
+            <CPR:fundAdmin>0.0</CPR:fundAdmin>
+            <CPR:dues>0.0</CPR:dues>
+            <CPR:travelSubs>0.0</CPR:travelSubs>
+            <CPR:savings>0.0</CPR:savings>
+            <CPR:other>0.0</CPR:other>
+            <CPR:total>194.71</CPR:total>
+            <CPR:notes> </CPR:notes>
+          </CPR:deductionsContribPay>
+          <CPR:netWagePaidWeek>1019.73</CPR:netWagePaidWeek>
+          <CPR:checkNum>3444</CPR:checkNum>
+        </CPR:payroll>
+      </CPR:employee>
+      <CPR:employee>
+        <CPR:name id="573076549::GUILLERMO  Conchas">Guillermo  Conchas</CPR:name>
+        <CPR:address>
+          <CPR:street>2981 Jane St.</CPR:street>
+          <CPR:city>Riverside</CPR:city>
+          <CPR:state>CA</CPR:state>
+          <CPR:zip>92506</CPR:zip>
+        </CPR:address>
+        <CPR:ssn>573076549</CPR:ssn>
+        <CPR:numWithholdingExemp>4</CPR:numWithholdingExemp>
+        <CPR:workClass>Landscape Irrigation Tender</CPR:workClass>
+        <CPR:payroll>
+          <CPR:hrsWorkedEachDay>
+            <CPR:day id="1">
+              <CPR:date>2018-01-22</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="2">
+              <CPR:date>2018-01-23</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="3">
+              <CPR:date>2018-01-24</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="4">
+              <CPR:date>2018-01-25</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="5">
+              <CPR:date>2018-01-26</CPR:date>
+              <CPR:straightTime>4.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="6">
+              <CPR:date>2018-01-27</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+            <CPR:day id="7">
+              <CPR:date>2018-01-28</CPR:date>
+              <CPR:straightTime>0.0</CPR:straightTime>
+              <CPR:overtime>0.0</CPR:overtime>
+              <CPR:doubletime>0.0</CPR:doubletime>
+            </CPR:day>
+          </CPR:hrsWorkedEachDay>
+          <CPR:totHrs>
+            <CPR:totHrsStraightTime>4.0</CPR:totHrsStraightTime>
+            <CPR:totHrsOvertime>0.0</CPR:totHrsOvertime>
+            <CPR:totHrsDoubletime>0.0</CPR:totHrsDoubletime>
+          </CPR:totHrs>
+          <CPR:hrlyPayRate>
+            <CPR:hrlyPayRateStraightTime>18.94</CPR:hrlyPayRateStraightTime>
+            <CPR:hrlyPayRateOvertime>0.0</CPR:hrlyPayRateOvertime>
+            <CPR:hrlyPayRateDoubletime>0.0</CPR:hrlyPayRateDoubletime>
+          </CPR:hrlyPayRate>
+          <CPR:grossAmountEarned>
+            <CPR:thisProject>75.76</CPR:thisProject>
+            <CPR:allWork>757.6</CPR:allWork>
+          </CPR:grossAmountEarned>
+          <CPR:deductionsContribPay>
+            <CPR:fedTax>40.0</CPR:fedTax>
+            <CPR:FICA>57.96</CPR:FICA>
+            <CPR:stateTax>11.97</CPR:stateTax>
+            <CPR:SDI>7.57</CPR:SDI>
+            <CPR:vacationHoliday>0.0</CPR:vacationHoliday>
+            <CPR:healthWelfare>0.0</CPR:healthWelfare>
+            <CPR:pension>0.0</CPR:pension>
+            <CPR:training>0.0</CPR:training>
+            <CPR:fundAdmin>0.0</CPR:fundAdmin>
+            <CPR:dues>0.0</CPR:dues>
+            <CPR:travelSubs>0.0</CPR:travelSubs>
+            <CPR:savings>0.0</CPR:savings>
+            <CPR:other>0.0</CPR:other>
+            <CPR:total>117.5</CPR:total>
+            <CPR:notes> </CPR:notes>
+          </CPR:deductionsContribPay>
+          <CPR:netWagePaidWeek>640.1</CPR:netWagePaidWeek>
+          <CPR:checkNum>3448</CPR:checkNum>
+        </CPR:payroll>
+      </CPR:employee>
+    </CPR:employees>
+  </CPR:payrollInfo>
+</CPR:eCPR>
