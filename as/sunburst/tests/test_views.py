@@ -3,8 +3,6 @@
 from django.test import Client
 from django.urls import reverse
 
-from home.models.profile import Profile
-
 
 def test_index():
     """Get the index and test some things."""
