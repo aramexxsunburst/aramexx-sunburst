@@ -1,8 +1,13 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
-from sunburst.forms import UploadForm
+from django import forms
 
 # Create your views here.
+
+
+class UploadFileForm(forms.Form):
+    sunburst_xml = forms.FileField()
+
 
 def index(request):
     context = {}
@@ -10,14 +15,11 @@ def index(request):
 
 
 def upload(request):
-    print(request.FILES)
-    print(request)
     if request.method == 'POST':
-        form = UploadForm(request.POST, request.FILES)
+        form = UploadFileForm(request.POST, request.FILES)
         if form.is_valid():
-            print(request.FILES['file'])
             # import_xml_file(request.FILES['file'])
             return HttpResponseRedirect('/')
     else:
-        form = UploadForm()
+        form = UploadFileForm()
     return render(request, 'sunburst/upload.html', {'form': form})
