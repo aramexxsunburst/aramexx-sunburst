@@ -1,5 +1,12 @@
-<form action="" method="post">{% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Send message" />
-</form>
+{% extends 'sunburst/base.html' %}
 
+{% block content %}
+
+  <div class="col-xs-12">
+    <form action="{% url 'upload' %}" method="post">{% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Send message" />
+    </form>
+  </div>
+
+{% endblock %}
