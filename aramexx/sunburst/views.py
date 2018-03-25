@@ -10,6 +10,8 @@ def index(request):
 
 
 def upload(request):
+    print(request.FILES)
+    print(request)
     if request.method == 'POST':
         form = UploadForm(request.POST, request.FILES)
         if form.is_valid():
