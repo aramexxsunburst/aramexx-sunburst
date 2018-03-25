@@ -20,5 +20,6 @@ import sunburst.views
 
 urlpatterns = [
     path('', sunburst.views.index, name='index'),
+    path('upload/', sunburst.views.upload, name='upload'),
     path('admin/', admin.site.urls),
 ]
