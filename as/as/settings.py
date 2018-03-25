@@ -90,7 +90,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+DATABASE_ENV = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(DATABASE_ENV)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
